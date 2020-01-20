@@ -1,0 +1,72 @@
+body {
+	font-family: arial;
+	margin:  0;
+	padding: 0;
+}
+
+#trans1 {
+	width:650px;
+	height:50px;
+	background-color: lightcoral;
+	transition: width 3s, height 3s, transform 3s;
+	
+	
+}
+
+#trans1:hover {
+	width: 850px;
+	height: 250px;
+	background: lightcoral;
+	transform: rotate(180deg);
+	font-size: 18px;
+
+}
+
+.links {
+	color: black;
+}
+
+#trans2 {
+	width:650px;
+	height:50px;
+	background: lightgoldenrodyellow;
+}
+
+#trans2:hover {
+	background-color: lightcoral;
+	
+}
+
+#trans3 {
+	width:650px;
+	height:50px;
+	background: lightseagreen;
+}
+
+#trans3:hover {
+	margin-top: 200px;
+	margin-left: 150px;
+}
+
+#trans4 {
+	width:650px;
+	height:50px;
+	background-color: lightskyblue;
+
+}
+
+#trans4:hover {
+	transform: skewY(3deg);
+}
+
+#trans5 {
+	width:650px;
+	height:50px;
+	background-color: #db1309;
+	transition: width 3s, height 3s, transform 3s;
+}
+
+#trans5:hover {
+	transform: rotateY(45deg);
+	font-family: helvetia;
+}
