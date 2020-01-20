@@ -1,0 +1,103 @@
+body {
+	font-family: arial;
+	margin:  0;
+	padding: 0;
+	text-align: center;
+}
+
+p {
+	width: 80%;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+h3 , ul {
+	width: 80%;
+	margin: auto;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+
+}
+
+footer {
+	margin-top: 300px;
+	text-align: center;
+}
+
+.spacearound {
+	margin: 5px;
+}
+/* =======================
+Links Transformation
+=======================
+ */
+#trans1 {
+	width:650px;
+	height:80px;
+	background-color: lightcoral;
+	transition: width 3s, height 3s, transform 3s;
+	
+}
+
+#trans1:hover {
+	width: 850px;
+	height: 250px;
+	background: lightcoral;
+	transform: rotate(180deg);
+	font-size: 18px;
+
+}
+
+.links {
+	color: black;
+	text-decoration: none;
+}
+
+#trans2 {
+	width:650px;
+	height:80px;
+	background: lightgoldenrodyellow;
+}
+
+#trans2:hover {
+	background-color: lightcoral;
+	
+}
+
+#trans3 {
+	width:650px;
+	height:80px;
+	background: lightseagreen;
+}
+
+#trans3:hover {
+	margin-top: 200px;
+	margin-left: 150px;
+}
+
+#trans4 {
+	width:650px;
+	height:80px;
+	background-color: lightskyblue;
+
+}
+
+#trans4:hover {
+	transform: skewY(3deg);
+}
+
+#trans5 {
+	width:650px;
+	height:80px;
+	background-color: #db1309;
+	transition: width 3s, height 3s, transform 3s;
+}
+
+#trans5:hover {
+	transform: rotateY(45deg);
+	font-family: helvetia;
+}
