@@ -1,0 +1,95 @@
+body {
+	outline-color: : black;
+	outline-style: solid;
+	outline-width: 1px;
+	width: 18%;
+	font-size: 12px;
+}
+
+
+#firstblackline {
+	background-color: black;
+	height: 12px;
+}
+
+
+#secondblackline {
+	background-color: black;
+	height: 12px;
+	border-bottom: 0;
+}
+
+#thirdblackline {
+	background-color: black;
+	height: 3px;
+	
+}
+
+#aber{
+	border-bottom: 0;
+}
+#schweden {
+	border-bottom: 0;
+}
+
+#hilfe {
+	text-align: right;
+	margin-top: 0;
+}
+
+strong {
+	font-size: 22px;
+}
+
+div p {
+	margin-bottom: 1px;
+}
+
+#empty {padding:0;}
+
+#tablehead {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#blahead {
+	text-align: left;	
+	padding-right: 0;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+td {
+	border-bottom: 1px solid black;
+}
+
+.lasttd {
+	border-bottom: 0;
+
+}
+
+.bla {
+	text-align: right;
+}
+
+#tabletext {
+	font-size: 9px;
+
+}
+
+.movein {
+	padding-left: 10px;
+}
+
+.graham {
+	border-bottom: 0;
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+	border-bottom: 0;
+}
+
